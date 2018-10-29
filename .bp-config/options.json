@@ -1,0 +1,7 @@
+{
+    "ADMIN_EMAIL": "admin@localhost",
+    "PHP_EXTENSIONS": ["mysqli"],
+    "WEBDIR": "public",
+    "LIBDIR": "vendor",
+    "COMPOSER_VENDOR_DIR": "vendor"
+}

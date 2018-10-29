@@ -1,0 +1,11 @@
+---
+applications:
+- name: cf-ex-laravel
+  memory: 128M
+  instances: 1
+  path: .
+  buildpack: php_buildpack
+  services:
+  - mysql
+  routes:
+  - route: laravel.local.pcfdev.io
